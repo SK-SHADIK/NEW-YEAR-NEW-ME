@@ -121,6 +121,34 @@
     text-align: center;
     color: #F15B22;
 }
+/* TIME TABLE */
+.time-table{
+    margin: 100px 200px;
+}
+.time-table-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+table {
+    margin-top: 20px;
+    margin-left: 300px;
+	border-collapse: collapse;
+}
+table td, th {
+	padding: 15px;
+}
+table thead td, th {
+	background: #F15B22;
+	color: #fff;
+	font-weight: 700;
+	font-size: 18px;
+	border: 1px solid #444343;
+}
+table tbody td {
+	color: #151414;
+	border: 1px solid #444343;
+}
 /* FOOTER */
 .footer{
     height: 577px;
