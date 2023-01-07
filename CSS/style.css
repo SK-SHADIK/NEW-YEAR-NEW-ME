@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+/* HEADER  BANNER */
+.header{
+    width: 100%;
+    height: 800px;
+    background-image: url('../images/banner/banner2.png');
+    background-repeat: no-repeat;
+}
+.banner {
+    margin: 0 30px 35px 600px;
+    padding: 200px 200px;
+    text-align: right;
+}
+.banner-title {
+    font-size: 65px;
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 25px;
+}
+.banner-desc{
+    font-size: 16px;
+    color: #444343;
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin-bottom: 30px;
+}
+.btn-primary{
+    height: 64px;
+    width: 160px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    padding: 14px 24px;
+}
+/* MAIN */
+/* MY FAILURES OF PREVIOUS YEAR */
+.failures{
+    height: 725px;
+    margin: 130px 250px;
+    background-image: url('../images/person.png');
+    background-repeat: no-repeat;
+}
+.failure-section{
+    padding: 230px 20px 130px 600px;
+}
+.failures-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 25px;
+}
+.failure-desc{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+.failure-list{
+    margin-top: 15px;
+}
+.failure-list li {
+    list-style: none;
+}
+.failure-list i{
+    color: green;
+}
+/* MY PLANS */
+.plan-section{
+    margin: 100px 200px;
+    text-align: center;
+}
+.plan-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 25px;
+}
+.plan-container{
+    display: flex;
+    gap: 80px;
+}
+.Plan-title{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #151414;
+}
+.plan-desc{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+/* LINEAR GREDIENT */
+.linergredient{
+    margin: 100px 200px;
+    height: 300px;
+    background-image: linear-gradient(to left, #f15d221a, #F15B22), url('../images/watch.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.linergredient-title{
+    padding: 80px 500px 0 80px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.btn-linergredient{
+    width: 160px;
+    height: 64px;
+    margin-left: 80px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #F15B22;
+}
+/* FOOTER */
+.footer{
+    height: 577px;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    gap: 330px;
+}
+/* FUTURE */
+.footer-title {
+    color: #F8F8F8;
+    padding: 100px 200px 0 150px;
+    font-weight: 700;
+    font-size: 45px;
+}
+.footer-desc{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 20px 0 0 150px;
+}
+.footer-info-container{
+    margin-top: 20px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+.footer-info{
+    padding: 0 200px 20px 150px;
+}
+.footer-icon{
+    display: flex;
+    gap: 20px;
+    padding: 0 200px 20px 150px;
+}
+
+/* SUBSCRIBE */
+.subscribe-section{
+    padding: 50px 100px 0 150px;
+}
+.subscribe input{
+    width: 325px;
+    height: 65px;
+    font-size: 25px;
+    padding-left: 10px;
+    background: #151414;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    color: #F3F3F3;
+}
+.btn-subscribe{
+    width: 170px;
+    height: 64px;
+    color: #FD6E0A;
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: 3px solid #FD6E0A;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
